@@ -41,7 +41,8 @@ html {
 .banner {
   background:
     linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)),
-    url("../images/banner.jpg") no-repeat center bottom / cover;
+    url("../images/banner.jpg") no-repeat center bottom / cover #588477;
+  border-bottom: 3px solid #2d5a4d;
 }
 
 .banner-content {
@@ -49,6 +50,8 @@ html {
   padding-top: 300px;
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
+  background-size: 6em;
+  background-position: .75em 180px;
 }
 
 @media only screen and (min-width: 60em) {
